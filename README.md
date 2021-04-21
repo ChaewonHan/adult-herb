@@ -2,7 +2,20 @@
 ![dsfsdfds](https://user-images.githubusercontent.com/75398832/115582736-33d92e80-a304-11eb-8853-a5293dcf62af.PNG)
 
 ## 목차
-
+- [소개](#소개)
+  - [프로젝트 주제](#프로젝트-주제)
+  - [기획의도](#기획의도)
+  - [ERD](#ERD)
+  - [UML](#UML)
+  - [Use Case Diagram](#Use-Case-Diagram)
+- [담당한 기능](#담당한-기능)
+  -  [상품 목록 정렬 및 카테코리](#상품-목록-정렬-및-카테코리)
+  -  [상품 상세페이지](#상품-상세페이지)
+  -  [상품 리뷰 작성](#상품-리뷰-작성)
+  -  [상품 리뷰 수정](#상품-리뷰-수정)
+  -  [상품 리뷰 삭제](#상품-리뷰-삭제)
+  -  [상품 카테고리별 검색](#상품-카테고리별-검색)
+  -  [담당 기능 소스코드](#담당-기능-소스코드)
 ## 소개
 kh교육원에서 진행한 Spring 기반 팀 프로젝트 입니다. Mybatis, Spring MVC 패턴 구현을 통해 동작 원리를 이해하고 쇼핑몰 구조를 구현해보기 위해 진행한 프로젝트 입니다.
 
@@ -58,22 +71,22 @@ kh교육원에서 진행한 Spring 기반 팀 프로젝트 입니다. Mybatis, S
   - [상품목록](herb/src/main/webapp/WEB-INF/views/product/product.jsp)
   - [상품 상세페이지](herb/src/main/webapp/WEB-INF/views/product/productInfo.jsp)
 - Controller
-  - [상품 Controller](herb/src/main/java/com/kh/herb/product/controller/ProductController.java)
-  - [상품 리뷰 Controller](herb/src/main/java/com/kh/herb/review/controller/ReviewController.java)
+    - [상품 Controller](herb/src/main/java/com/kh/herb/product/controller/ProductController.java)
+    - [상품 리뷰 Controller](herb/src/main/java/com/kh/herb/review/controller/ReviewController.java)
  - DAO
-  - [상품 DAO](herb/src/main/java/com/kh/herb/product/model/dao/ProductDAO.java)
-  - [상품 리뷰 DAO](herb/src/main/java/com/kh/herb/review/model/dao/ReviewDAO.java)
+    - [상품 DAO](herb/src/main/java/com/kh/herb/product/model/dao/ProductDAO.java)
+    - [상품 리뷰 DAO](herb/src/main/java/com/kh/herb/review/model/dao/ReviewDAO.java)
  - Service
-  - [상품 Service](herb/src/main/java/com/kh/herb/product/model/service/ProductServiceImpl.java)
-  - [상품 리뷰 Service](herb/src/main/java/com/kh/herb/review/model/service/ReviewServiceImpl.java)
+    - [상품 Service](herb/src/main/java/com/kh/herb/product/model/service/ProductServiceImpl.java)
+    - [상품 리뷰 Service](herb/src/main/java/com/kh/herb/review/model/service/ReviewServiceImpl.java)
  - VO
-  - [상품 VO](herb/src/main/java/com/kh/herb/product/model/vo/Product.java)
-  - [상품 파일 VO](herb/src/main/java/com/kh/herb/product/model/vo/Product.java)
-  - [상품 목록 페이징 VO](herb/src/main/java/com/kh/herb/product/model/vo/ProductPage.java)
-  - [상품 리뷰 VO](herb/src/main/java/com/kh/herb/review/model/vo/Review.java)
-  - [상품 리뷰 파일 VO](herb/src/main/java/com/kh/herb/review/model/vo/Review.java)
+    - [상품 VO](herb/src/main/java/com/kh/herb/product/model/vo/Product.java)
+    - [상품 파일 VO](herb/src/main/java/com/kh/herb/product/model/vo/Product.java)
+    - [상품 목록 페이징 VO](herb/src/main/java/com/kh/herb/product/model/vo/ProductPage.java)
+    - [상품 리뷰 VO](herb/src/main/java/com/kh/herb/review/model/vo/Review.java)
+    - [상품 리뷰 파일 VO](herb/src/main/java/com/kh/herb/review/model/vo/Review.java)
  - Mapper
-  - [상품 Mapper](herb/src/main/java/mapper/product-mapper.xml)
-  - [상품 파일 Mapper](herb/src/main/java/mapper/product-file-mapper.xml)
-  - [리뷰 Mapper](herb/src/main/java/mapper/review-mapper.xml)
+    - [상품 Mapper](herb/src/main/java/mapper/product-mapper.xml)
+    - [상품 파일 Mapper](herb/src/main/java/mapper/product-file-mapper.xml)
+    - [리뷰 Mapper](herb/src/main/java/mapper/review-mapper.xml)
  
